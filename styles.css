@@ -87,6 +87,23 @@ color: #0078D7;
 .modal__link--ie:hover{
 color:  #1EBBEE;
 }
-
-
+.modal-button{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.modal-button span {
+    padding: 0 0 10px 0;
+}
+.modal-button_reload{
+animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(365deg);
+    }
+}
 

@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded',function(){
         }
     }
 
- /*    const handler = (event)=> {
+    const handler = (event)=> {
         event.preventDefault()
         document.location.reload()
     }
 
-    modalBtn.addEventListener('click',handler) */
+    modalBtn.addEventListener('click',handler)
     
 
    
