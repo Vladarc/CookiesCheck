@@ -5,7 +5,7 @@
     let modalBtn =   document.querySelector('.modal-button_reload')
   
       const cookiesCheck = () =>{
-          if(navigator.cookieEnabled === true ){
+          if(navigator.cookieEnabled === false){
               modal.classList.add('active')
               document.body.classList.add('active--hiden')
           }
